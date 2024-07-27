@@ -1,6 +1,8 @@
 # ESP32 MSC to SPI Flash demo
 
 This code makes 1MB working Flash drive from ESP32-S2.
+How it works:
+https://youtu.be/wCQvbELoyOI
 
 
 Here's the point:

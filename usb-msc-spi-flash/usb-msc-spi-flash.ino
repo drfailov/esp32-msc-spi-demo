@@ -40,7 +40,8 @@ void setup() {
   spifsPartition = esp_partition_find_first(ESP_PARTITION_TYPE_DATA, ESP_PARTITION_SUBTYPE_ANY, "spiffs");  //for spiffs partition scheme
   //spifsPartition = esp_partition_find_first(ESP_PARTITION_TYPE_DATA, ESP_PARTITION_SUBTYPE_ANY, "fatffs");  //for spiffs partition scheme
   //spifsPartition = esp_partition_find_first(ESP_PARTITION_TYPE_APP, ESP_PARTITION_SUBTYPE_ANY, "app1");  //for second app space
-  clearPartition();
+  
+  //clearPartition();   //incomment to clear partition
 }
 
 void loop() {
