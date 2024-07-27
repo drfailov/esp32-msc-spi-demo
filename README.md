@@ -1,12 +1,16 @@
 # ESP32 MSC to SPI Flash demo
 
-This code makes 1MB working Flash drive from ESP32-S2.    <br>
+<p align="center">
+<img src="photo_2024-07-27_22-37-08.jpg" width="700"/>
+</p>
+
+This code makes **1MB working Flash drive from ESP32-S2**.    <br>
 How it works:    <br>
 https://youtu.be/wCQvbELoyOI    <br>
+  <br>
+  <br>
 
-
-
-Here's the point:    <br>
+**Here's the point:**    <br>
 MSC Is access memory by LBA num and Offset.     <br>
 LBA=512bytes.    <br>
 but    <br>
